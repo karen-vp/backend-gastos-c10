@@ -1,0 +1,26 @@
+{
+	"name": "introbackend",
+	"version": "1.0.0",
+	"description": "demo de configuracion inicial de un backend node con express",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"demo",
+		"backend",
+		"node"
+	],
+	"author": "Ariel Penna",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"express": "^4.17.3",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.3.3",
+		"nodemon": "^2.0.15"
+	}
+}
